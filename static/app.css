@@ -1,0 +1,82 @@
+.chatbox{
+    width: 100%;
+    height: 600px;
+    background-color: e6e9ed;
+    box-shadow: azure;
+    border-radius: 10px;
+}
+
+.chatlog{
+    width: 100%;
+    height:500px;
+    padding: 10px;
+    background-color:#e6ede9;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.chatlog::-webkit-scrollbar{
+    width: 10px;
+}
+
+.chatbox::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgba(0,0,0.1);
+}
+
+.chat{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.user{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    box-shadow: azure;
+}
+
+
+.chat-message{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 5px;
+}
+
+
+p{
+    background : #fff;
+    color: #666;
+    border-radius: 25px;
+}
+  /* in place of even we can also write 2n */
+p:nth-of-type(even){
+    background: #f7f7f7;
+}
+
+.activity_center{
+    width: 100%;
+    height: 600px;
+    background-color: #d9d5cc;
+    box-shadow: azure;
+    border-radius: 10px;
+
+}
+
+.user-logs::-webkit-scrollbar{
+    width: 10px;
+}
+
+.user-logs::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgba(0,0,0.1);
+}
+
+
+.activity-message{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 5px 0px;
+}
